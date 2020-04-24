@@ -1,0 +1,57 @@
+<!--
+    Kyle Fogarty-Anderson
+    30029389
+    index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+
+<body>
+    
+    <img class="logoimage" src="./images/Logo.svg" alt="logo">
+    <button type="button" class="left" onclick="Left()">&#8249;</button>     <!--left button-->
+    <button type="button" class="right" onclick="Right()">&#8250;</button>   <!--Right button-->
+    <div class="background1" style="position: absolute;"></div> <!--StaticBackground-->
+    <div id="change" class="background2" style="position: absolute;"></div>  <!--Changing Background-->
+        
+
+        
+
+    <div class="topnav">
+        <div class="Navbar">      
+            <img class="logo" src="images/Logo.svg" alt="Logo">
+            <div class="title" >SCP Foundation</div>
+        </div>  
+        
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="scp-002.html">SCP-002</a>
+            <a href="scp-003.html">SCP-003</a>
+            <a href="scp-004.html">SCP-004</a>
+            <a href="scp-005.html">SCP-005</a>
+            <a href="scp-006.html">SCP-006</a>
+        </div>
+        <a class="icon" onclick="myFunction()"> <!--Display DropDown-->
+            <i class="fa fa-bars"></i>
+        </a>
+        
+        
+    </div>
+    
+    
+    
+    <script src="scripts/script.js"></script><!--Link External Java Script-->
+   <footer style="position: fixed;">Kyle Fogarty-Anderson 30029389</footer>
+</body>
+</html>
